@@ -1,0 +1,264 @@
+
+/* V2 */
+
+.contenedorBotones{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.contenedorBotones-img{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(41,39,39);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+header a{
+    font-size: 25px;
+    padding: 15px;
+    color: rgb(239, 92, 92);
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+a{
+    font-size: 23px;
+    padding: 15px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+button{
+    font-size: 23px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(170, 35, 35);
+    border-style: none;
+}
+
+.btn-red{
+    font-size: 23px;
+    padding: 15px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(170, 35, 35);
+    border-style: none;
+}
+
+button:hover{
+
+    transform: scale(1.2);
+}
+a:hover{
+    transform: scale(1.2);
+}
+.btn-red:hover{
+
+    transform: scale(1.2);
+}
+
+h1,h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+img{
+    width: 200px;
+    height:200px;
+}
+
+.button {
+    margin: 10px;
+    height: 50px; 
+    width: 200px; 
+    position: relative;
+    font-size:larger;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #252525;
+    overflow: hidden; 
+    border-radius: 30px;
+    color: #333;
+    transition: all 0.3s ease-in-out; 
+}
+
+.btnText {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.btnPrimary::after {
+    content: "";
+    position: absolute;
+    left: 0; top: 0;
+    transition: all 0.3s ease-in-out;
+    background-color: #333;
+    border-radius: 30px; 
+    visibility: hidden;
+    height: 10px;
+    width: 10px; z-index: -1;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 200px #252525;
+    color: #ffffff;
+}
+
+.btnPrimary:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+
+.home{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    background:white
+    ;
+}
+
+
+.button-home {
+    margin: 40px;
+    height: 150px; 
+    width: 240px; 
+    /*background-color: #ffffff;*/
+    position: relative;
+    font-size:35px;
+    border: 2px solid #000;
+    border-radius: 100px;
+    color: #000;
+    transition: all 0.3s ease-in-out; 
+}
+
+.btnPrimary-home:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+.btnPrimary-home::after {
+    background-color: #000;
+}
+
+.button-home:hover {
+    box-shadow: 1px 1px 200px #000;
+    color: #000;
+}
+
+.contenedorProductos{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+
+}
+
+div .tarjetaProducto{
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(231, 71, 71);
+  
+}
+
+.button-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-view{
+    margin-left: 6%;
+    display: flex;
+}
+
+header h1,h2 {
+   color:azure
+}
+
+.tarjetaListado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+div .tarjetaListado{
+    background-color: rgb(231, 71, 71);
+}
+.greeting{
+    text-align: center;
+}
+h1.greeting {
+    background-color: #ed6e6e;
+}
+div{
+    display: flex;
+    flex-direction: column;
+
+}
+.imgContenedor{
+    margin-right:6%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.imagenesCard{
+    width: 300px;
+    height: 300px;
+}
+
+#divForm h2{
+    color: #292222;
+}
+
+#tituloGrande{
+    font-weight: 600;
+}
+.option-dropdown{
+    font-size: 25px;
+}
+
+.selectForm{
+    height:50px;
+    font-size:25px;
+    text-align: center;
+    align-self: center;
+    margin: 1%;
+    width: 45%;
+}
+#textoCambioDeEstado{
+    font-size: 30px;
+}
+#tituloMedio{
+    color: #252525;
+    font-weight: 600;
+   
+
+}
+#selectCambio{
+    width: 100%;
+}
