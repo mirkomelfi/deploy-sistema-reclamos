@@ -44,7 +44,7 @@ export const Login = () => {
         const datosFormulario = new FormData(datForm.current) //Pasar de HTML a Objeto Iterable
         const cliente = Object.fromEntries(datosFormulario) //Pasar de objeto iterable a objeto simple
     
-        const response =  await fetch(`${process.env.REACT_APP_DOMINIO_BACK}/auth/login`, {
+        const response =  await fetch(`https://sistema-de-reclamos-ed.rj.r.appspot.com/auth/login`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
